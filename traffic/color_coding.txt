@@ -1,0 +1,4 @@
+Darker red - R : 186, G : 25, B : 44
+Green - R : 128, G : 206, B : 84
+Orange - R : 233, G : 123, B : 8
+

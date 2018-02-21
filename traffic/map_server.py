@@ -7,4 +7,4 @@ def root():
     return app.send_static_file('get_traffic_map.html')
 
 if __name__ == "__main__":
-	app.run(port=7000)
+    app.run(port=7001)

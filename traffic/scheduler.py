@@ -16,7 +16,7 @@ scheduler = BackgroundScheduler()
 scheduler.start()
 scheduler.add_job(
     func=capture,
-    trigger=IntervalTrigger(minutes=15),
+    trigger=IntervalTrigger(minutes=2),
     id='capturing_job',
     name='Captures map every 15 minutes',
     replace_existing=True)

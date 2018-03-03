@@ -103,3 +103,12 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1519214619581	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
 1519214619581	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1519214619668	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=connectionFailure&u=http%3A//localhost%3A7000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A7000."
+2018-02-23 14:18:16.523 geckodriver[25552:2660457] Metadata.framework [Error]: server port invalidated for uid 502
+2018-02-23 14:18:16.524 geckodriver[25565:2660456] Metadata.framework [Error]: server port invalidated for uid 502
+2018-02-23 14:18:16.524 geckodriver[25559:2660461] Metadata.framework [Error]: server port invalidated for uid 502
+2018-02-23 14:18:16.838 geckodriver[25552:2660457] Metadata.framework [Error]: client check-in failed: (-308) (ipc/mig) server died
+2018-02-23 14:18:16.839 geckodriver[25565:2660456] Metadata.framework [Error]: client check-in failed: (-308) (ipc/mig) server died
+2018-02-23 14:18:16.839 geckodriver[25559:2660461] Metadata.framework [Error]: client check-in failed: (-308) (ipc/mig) server died
+2018-02-23 14:18:16.839 geckodriver[25552:2660455] Metadata.framework [Error]: couldn't get the client port
+2018-02-23 14:18:16.840 geckodriver[25565:2660452] Metadata.framework [Error]: couldn't get the client port
+2018-02-23 14:18:16.840 geckodriver[25559:2660459] Metadata.framework [Error]: couldn't get the client port

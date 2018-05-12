@@ -1,8 +1,9 @@
 import os
 import time
 import sys
-from image_to_intensity import get_intensities
-import cv2
+# from image_to_intensity import get_intensities
+# import cv2
+from shutil import copy2
 
 images = os.listdir(sys.argv[1])
 
@@ -27,6 +28,12 @@ for i in range(len(images)-1):
 
 count = 0
 for l in master_list:
+	des_folder_path = "".join([sys.argv[1],"grouped/",str(count),"/"])
+	if not os.path.exists(des_folder_path):
+		os.makedirs(des_folder_path)
 	for image in l:
-		img_path = "".join([sys.argv[1],"_".join(image.split("."))+".png"])
-		
+		src_img_path = "".join([sys.argv[1],"_".join(image.split("."))+".png"])
+		print(src_img_path)
+		des_img_path = des_folder_path+"_".join(image.split("."))+".png"
+		copy2(src_img_path, des_img_path)
+	count += 1		
